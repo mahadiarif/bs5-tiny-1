@@ -1,0 +1,84 @@
+/* Font Link Start  */
+@font-face {
+    font-family: 'PTSans-Regular',sans-serif;
+    src: url(../fonts/PTSans-Regular.ttf);
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'PTSans-Bold';
+    src: url(../fonts/PTSans-Bold.ttf);
+    font-weight: 700;
+}
+/* Font Link End  */
+/* Common Css Start  */
+:root {
+    --primary:#fcdb00;
+    --secondary:#010101;
+    --tirtiary:hsl(214, 14%, 22%);
+    --hover:#fff;
+}
+body{
+    font-family: 'PTSans-Regular',sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+/* Common Css End */
+/* Menu Start  */
+header{
+    background-color: var(--primary);
+    padding: 20px 0;
+}
+.main-nav{}
+.logo{}
+.menu-toogle{}
+.toggle-btn{
+    font-size: 30px;
+    color: #313841;
+    border: 2px solid #313841;
+}
+.toggle-btn:focus{
+    box-shadow: none!important;
+}
+.menu-toogle ul li a{
+    padding: 0 40px!important;
+    font-family:'PTSans-Bold';
+    font-weight: bold;
+    font-size: 22px;
+    color: var(--secondary);
+}
+.menu-toogle ul li:last-child a{
+    padding-right: 0!important;
+}
+.menu-toogle ul li a:hover{
+    color: var(--hover);
+}
+/* Menu End */
+/* Banner Area Start  */
+.banner-area{
+    background-color: var(--primary);
+}
+.slider-text{}
+.slider-text h1{
+    font-family: 'PTSans-Bold';
+    font-weight: 700;
+    font-size: 32px;
+    color: var(--secondary);
+}
+.slider-text h2{
+    font-size: 20px;
+    color: #313841;
+}
+.slider-text p{
+    color: #555555;
+}
+.slider-text ul{}
+.slider-text ul li{
+    margin-right: 40px!important;
+}
+.slider-text ul li i{
+    font-size: 42px;
+}
+.slider-img{
+    padding-bottom: 100px;
+}
+/* Banner Area End  */
